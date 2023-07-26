@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#carousel{
+  max-height: 600px;
+}
+
+#logoutbtn{
+  background-color: white;
+  color: red;
+}
+#logoutbtn:hover{
+  background-color: rgb(172, 8, 8);
+  color: white;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+#mycart{
+  background-color: white;
+  color: #2dcd82;
+}
+
+#mycart:hover{
+  background-color: #484848;
+  color: #2dcd82;
+  font-size: 125%;
+}
+
+#completecards{
+   box-shadow: 5px 5px 1px lightslategray;
+}
+
+.cardbody{
+  background-color: #484848;
+}
+
+.befoodie:hover{
+     font-size: 150%;
+}
+
+#navitem1:hover{
+  color: #484848;
+}
+#navitem2:hover{
+  color: #484848;
+}
+
+#hi{
+  background-color:#484848;
+}
+
+/* .logsign{
+  color:#2dcd82;
+  background-color: #989898;
+}
+.logsign:hover{
+  font-size: 110%;
+  background-color:#261b1b;
+  /* color: #2dcd82; */
+
+/* } */ 
